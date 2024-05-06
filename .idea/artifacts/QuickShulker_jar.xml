@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="QuickShulker:jar">
+    <output-path>$PROJECT_DIR$/../../1.20.6 Survival/plugins</output-path>
+    <root id="archive" name="QuickShulker.jar">
+      <element id="module-output" name="QuickShulker" />
+    </root>
+  </artifact>
+</component>

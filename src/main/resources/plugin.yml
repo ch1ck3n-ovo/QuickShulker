@@ -1,0 +1,19 @@
+name: QuickShulker
+version: 1.0
+main: tw.ch1ck3n.quickshulker.QuickShulker
+api-version: 1.20
+
+commands:
+  quickshulker:
+    aliases: ["quickshulker", "qs"]
+    usage: "/quickshulker <sub-command>"
+    description: "This plugin's admin only commands"
+    permission: quickshulker.admin
+
+permissions:
+  quickshulker.open:
+    default: true
+  quickshulker.admin:
+    default: op
+    children:
+      - quickshulker.open
