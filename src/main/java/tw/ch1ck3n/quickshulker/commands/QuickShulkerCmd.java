@@ -14,7 +14,7 @@ public class QuickShulkerCmd implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String s, String[] args) {
 
-        if (sender instanceof Player) if (!sender.hasPermission("shulkerplus.admin")) return true;
+        if (sender instanceof Player) if (!sender.hasPermission("quickshulker.admin")) return true;
 
         new BukkitRunnable() {
             @Override

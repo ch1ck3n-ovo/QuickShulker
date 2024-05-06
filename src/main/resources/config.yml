@@ -10,9 +10,9 @@
 
 messages:
   help:
-    - "&e--------- &rHelp: Shulker+ &e---------------------------&r"
-    - "&7Below is a list of all Shulker+ commands:&r"
-    - "&6/shulkerplus reload: &rReload this plugin"
+    - "&e--------- &rHelp: QuickShulker &e---------------------------&r"
+    - "&7Below is a list of all QuickShulker commands:&r"
+    - "&6/quickshulker reload: &rReload this plugin"
   no-permission: "&cYou don't have permission to do this!"
   plugin-reloading: "&cReloading plugin..."
   plugin-reloaded: "&aPlugin reloaded!"

@@ -21,7 +21,7 @@ public class QuickShulkerTab implements TabCompleter {
 
         List<String> list = new ArrayList<>();
 
-        if (commandSender instanceof Player) if (!commandSender.hasPermission("shulkerplus.admin")) return list;
+        if (commandSender instanceof Player) if (!commandSender.hasPermission("quickshulker.admin")) return list;
 
         new BukkitRunnable() {
             @Override
